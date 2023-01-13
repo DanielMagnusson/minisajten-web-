@@ -3,31 +3,35 @@ body {
   background-size: cover;
 }
 
-header .navbar{
+header{
+  /*opacity: 0.5;*/
+}
+
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: DodgerBlue;
+    background-color: rgba(211, 185, 243, 0.5);
     border-radius: 10px;
-  }
-  
-header a{
-    background-color: #1884e1;
-    margin: 10px;
-    padding: 10px;
-    font-size: 40px;
   }
 
 .navbar a{
-  text-decoration: none;
-  
+    opacity: 1;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
 }
+
 .navbar a:hover{
-    background-color: blue;
+    background-color: rgba(203, 162, 222, 0.495);
+    text-decoration: underline 3px;
 }
 
 p {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
 }
 

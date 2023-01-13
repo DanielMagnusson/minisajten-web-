@@ -1,0 +1,19 @@
+header{
+    opacity: 0.5;
+  }
+  
+.navbar a{
+    background-color: #d3b28f;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+  }
+.navbar a:hover{
+    background-color: rgb(189, 146, 81);
+  }
+
+div.first_image {
+  back
+}

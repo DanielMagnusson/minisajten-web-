@@ -3,10 +3,6 @@ body {
   background-size: cover;
 }
 
-header{
-  /*opacity: 0.5;*/
-}
-
 .navbar{
     display: flex;
     align-items: center;

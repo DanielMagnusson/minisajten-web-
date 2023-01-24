@@ -1,0 +1,113 @@
+html{
+    background-color: rgb(37, 37, 37);
+}
+
+body{
+    font-family: fonty, serif;
+  }
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(89, 40, 100);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navbar a{
+    opacity: 1;
+    padding: 5px;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar a:hover{
+    background-color: rgb(119, 54, 133);
+    text-decoration: underline 3px;
+}
+
+p{
+    font-size: 30px;
+    background-color: rgb(89, 40, 100);
+    margin-top: 1px;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    height: 100%;
+    background-size: cover; 
+    color: white;
+}
+
+ul{
+    font-size: 30px;
+    text-align: left;
+}
+
+div:nth-child(1){
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_6.jpg);
+}
+
+div:nth-child(2){
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg);
+}
+
+div:nth-child(3){
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kalista_0.jpg);
+}
+
+div:nth-child(4){
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg);
+}
+
+@media screen and (max-width: 768px){
+    .flex-container > div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navbar a{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .navbar a{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .flex-container div{
+        font-size: 40px;
+    }
+
+    ul{
+        font-size: 20px;
+    }
+}  
+@font-face{ 
+    font-family: fonty;
+    src:url(font_noob.ttf);
+}

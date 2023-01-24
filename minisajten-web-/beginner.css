@@ -1,3 +1,11 @@
+html{
+  background-color: rgb(37, 37, 37);
+}
+
+body{
+  font-family: fonty, serif;
+}
+
 .navbar{
   display: flex;
   align-items: center;
@@ -41,7 +49,6 @@ p{
   height: 100%;
   background-size: cover; 
   color: white;
-  background-color: white;
 }
 
 ul{
@@ -66,8 +73,40 @@ div:nth-child(4){
   background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yuumi_0.jpg);
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 768px){
   .flex-container > div{
     width: 100%;
   }
 }
+
+@media screen and (max-width: 600px){
+  .navbar a{
+      font-size: 30px;
+  }
+
+  p{
+      font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 460px){
+  .navbar a{
+      font-size: 20px;
+  }
+
+  p{
+      font-size: 20px;
+  }
+
+  .flex-container div{
+      font-size: 40px;
+  }
+
+  ul{
+      font-size: 20px;
+  }
+}
+
+@font-face{ 
+  font-family: fonty;
+  src:url(font_noob.ttf);}

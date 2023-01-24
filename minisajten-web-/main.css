@@ -1,6 +1,11 @@
 body {
   background-image: url(https://media4.giphy.com/media/2sfHBti8mqSO5Bhlqq/giphy.gif?cid=ecf05e47l2mp2g7h2d2kuwrs5rgfkwgv8vtlsdbfve5gfkdf&rid=giphy.gif&ct=g);
   background-size: cover;
+  font-family: fonty, serif;
+}
+
+html{
+  height: 100vh;
 }
 
 .navbar{
@@ -29,5 +34,41 @@ body {
 p {
   font-size: 40px;
   text-align: center;
+  margin: 0px;
 }
 
+@media screen and (max-width: 768px){
+  .navbar{
+    flex-direction: column;
+    height: 30%;
+  }
+
+  .navbar a{
+    margin: 5px;
+    font-size: 30px;
+  }
+
+  body{
+    background-image: none;
+    background-color: black;
+    height: 90vh;
+  }
+
+  p {
+    background-image: url(https://media4.giphy.com/media/2sfHBti8mqSO5Bhlqq/giphy.gif?cid=ecf05e47l2mp2g7h2d2kuwrs5rgfkwgv8vtlsdbfve5gfkdf&rid=giphy.gif&ct=g);
+    background-size: cover;
+    height: 70%;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  p{
+    font-size: 20px;
+  }
+}
+
+@font-face{ 
+  font-family: fonty;
+  src:url(font_noob.ttf);
+}

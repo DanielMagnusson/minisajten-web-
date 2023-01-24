@@ -1,0 +1,115 @@
+html{
+    background-color: rgb(37, 37, 37);
+}
+
+body{
+    font-family: fonty, serif;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(61, 109, 80);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navbar a{
+    opacity: 1;
+    padding: 5px;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar a:hover{
+    background-color: rgb(55, 96, 71);
+    text-decoration: underline 3px;
+}
+
+p{
+    font-size: 30px;
+    background-color: rgb(61, 109, 80);
+    margin-top: 1px;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container div {
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    height: 100%;
+    background-size: cover; 
+    color: white;
+}
+
+ul{
+    font-size: 30px;
+    text-align: left;
+}
+
+div:nth-child(1){
+    background-image: url(https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaf48237f8531876a/61d8f2c49efff26ae7598104/zeri-splash.jpg);
+}
+
+div:nth-child(2){
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nautilus_0.jpg);
+}
+
+div:nth-child(3){
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg);
+    color: black;
+}
+
+div:nth-child(4){
+    background-image: url(https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-champion-aatrox/en_GB/5b922bef08881410f8fffa7273c30a75dfb1d11f/assets/img/share/share-1200x630.jpg);
+}
+
+@media screen and (max-width: 768px){
+    .flex-container > div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navbar a{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .navbar a{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .flex-container div{
+        font-size: 40px;
+    }
+
+    ul{
+        font-size: 20px;
+    }
+}
+
+@font-face{ 
+    font-family: fonty;
+    src:url(font_noob.ttf);
+}

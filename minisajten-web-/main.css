@@ -1,11 +1,11 @@
+html{
+  height: 100vh;
+}
+
 body {
   background-image: url(https://media4.giphy.com/media/2sfHBti8mqSO5Bhlqq/giphy.gif?cid=ecf05e47l2mp2g7h2d2kuwrs5rgfkwgv8vtlsdbfve5gfkdf&rid=giphy.gif&ct=g);
   background-size: cover;
   font-family: fonty, serif;
-}
-
-html{
-  height: 100vh;
 }
 
 .navbar{
